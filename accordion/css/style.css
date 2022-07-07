@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@media screen and (min-width: 769px) {
+  body {
+    font-size: 16px;
+    font-family: "游ゴシック体";
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  .qa-bg {
+    background: #EEEEEE;
+    padding: 100px 0 120px;
+  }
+  .qa-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .qa-ttl {
+    text-align: center;
+    font-size: 48px;
+  }
+  .qa-list {
+    margin-top: 87px;
+  }
+  .qa-item {
+    margin-top: 24px;
+  }
+  .qa-q {
+    background: #3F51B5;
+    color: #fff;
+    padding: 12px 0 12px 56px;
+    position: relative;
+  }
+  .qa-q::before {
+    position: absolute;
+    content: "Q";
+    left: 20px;
+  }
+  .qa-q::after {
+    position: absolute;
+    content: "＋";
+    right: 14px;
+  }
+  .qa-q.is-open::after {
+    position: absolute;
+    content: "ー";
+    right: 14px;
+  }
+  .qa-a {
+    background: #fff;
+    color: #3F51B5;
+    padding: 15px 30px 15px 56px;
+    display: none;
+  }
+  .qa-border {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 50%;
+    right: 14px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
