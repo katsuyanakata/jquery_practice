@@ -1,0 +1,25 @@
+.bg {
+  padding: 100px 0;
+}
+
+.inner {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.img-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 300px;
+}
+
+.img-list li:nth-child(even) {
+  margin-left: 5px;
+}
+
+.img-list li:nth-child(n+3) {
+  margin-top: 5px;
+}

@@ -1,0 +1,23 @@
+
+.bg{
+    padding: 100px 0;
+}
+
+.inner{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.img-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    li{
+        &:nth-child(even){
+            margin-left: 5px;
+        }
+        &:nth-child(n+3){
+            margin-top: 5px;
+        }
+    }
+}
